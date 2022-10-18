@@ -20,3 +20,8 @@ Makes changes to line 23 with your discord webhook
 ```python
 webhook = "https://discord.com/api/webhooks/..."
 ```
+Make the .exe file
+```batch
+cd into/current/folder/with/.py
+pyinstaller -F -w "main.py"
+```
