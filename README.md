@@ -34,3 +34,16 @@ File will be present in dist
   |__ main.py
   |__ main.spec
 ```
+The .exe file is ready and can be exercuted in any target computer
+## Adding to Task Scheduler
+Move the files 'main.exe' and 'script.bat' to target computer
+```batch
+..
+|__ main.exe
+|__ script.bat
+```
+Open command line CMD as **Administrator** and cd into both files directory and run the script
+```batch
+C:\WINDOWS\system32> cd into/directory/with/both_files/
+C:\Users\HP\Desktop> script.bat
+```
