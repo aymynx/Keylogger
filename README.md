@@ -30,7 +30,7 @@ File will be present in dist
   ..
   |__ build\
   |__ dist\
-  |      |_ 'main.exe'    <------
+  |      |__ 'main.exe'    <------
   |__ main.py
   |__ main.spec
 ```
