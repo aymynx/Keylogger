@@ -25,3 +25,12 @@ Make the .exe file
 cd into/current/folder/with/.py
 pyinstaller -F -w "main.py"
 ```
+File will be present in dist
+```batch
+  ..
+  |__ build\
+  |__ dist\
+  |   |_ main.exe
+  |__ main.py
+  |__ main.spec
+```
